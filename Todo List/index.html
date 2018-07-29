@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <title>TodoList</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <style type="text/CSS">
+
+        body { background-color: #1e1e1e; color: orangered; }
+
+        #container1 { margin-top: 2.5cm;}
+        #Center-Header { text-align: center; font-family: verdana;}
+        #Row-wise { margin-left: 6cm; }
+        #row { margin-left: 6cm; border-top: moccasin; border-top-width: 0.2px;}
+        #ch1 { float: right; margin-right: 7cm;}
+
+        .row { margin-left: 6cm; }
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="container1">
+            <div id="Center-Header">
+                <h1 class="head-text">To-Do List</h1>
+            </div>
+            <div class="Row">
+                <form>
+                    <div id="Row-wise">
+                        <input type="text" placeholder="Enter Task to do." style="width: 15cm">
+                        <span><button type="submit">Submit</button></span>
+
+                    </div>
+                    <small style="margin-left: 6cm">Only the one which are certain that you are doing.</small>
+                </form>
+            </div>
+        </div>
+        <div>
+            <div id="row">
+				<ul id="list">
+                    <li>this is it 1.<input id="ch1" type="checkbox" aria-label="Checkbox for following text input"></li>
+                    <li>this is it 1.<input id="ch1" type="checkbox" aria-label="Checkbox for following text input"></li>
+                    <li>this is it 1.<input id="ch1" type="checkbox" aria-label="Checkbox for following text input"></li>
+                    <li>this is it 1.<input id="ch1" type="checkbox" aria-label="Checkbox for following text input"></li>
+                    <li>this is it 1.<input id="ch1" type="checkbox" aria-label="Checkbox for following text input"></li>
+				</ul>
+			</div>
+			<div class="row" style=" margin-left: 21cm;">
+				<button type="submit">Clear</button>
+			</div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
+<!--
+class="form-group"
+class="form-control"  id="exampleInputEmail1" aria-describedby="emailHelp"
+class="btn btn-primary"
+id="emailHelp" class="form-text text-muted"
+-->
